@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2D55"/>
+      <stop offset="100%" stop-color="#FF6B8A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#bg)"/>
+  
+  <!-- Film reel outer ring -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  
+  <!-- Film sprocket holes -->
+  <circle cx="50" cy="18" r="6" fill="url(#gold)"/>
+  <circle cx="77.8" cy="34" r="6" fill="url(#gold)"/>
+  <circle cx="77.8" cy="66" r="6" fill="url(#gold)"/>
+  <circle cx="50" cy="82" r="6" fill="url(#gold)"/>
+  <circle cx="22.2" cy="66" r="6" fill="url(#gold)"/>
+  <circle cx="22.2" cy="34" r="6" fill="url(#gold)"/>
+  
+  <!-- Center play button -->
+  <circle cx="50" cy="50" r="18" fill="white" opacity="0.9"/>
+  <polygon points="45,40 45,60 62,50" fill="url(#bg)"/>
+</svg>
